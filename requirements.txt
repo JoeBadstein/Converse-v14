@@ -1,5 +1,4 @@
 flask
 flask-gtts
-os
 requests
 google-generativeai

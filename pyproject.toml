@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "repl_python3_ShimmeringGreenyellowCalculators"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.0"
+flask-gtts = "^0.18"
+requests = "^2.31.0"
+xds-protos = "^1.60.0"
+google-generativeai = "0.3.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

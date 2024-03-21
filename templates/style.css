@@ -1,0 +1,195 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color) !important;
+}
+
+:root {
+    --bg-color: white;
+    --hover-color: rgb(162, 162, 162);
+    --nav-color: rgb(211, 211, 211);
+    --font-color: black;
+}
+
+[data-theme="dark"] {
+    --bg-color: #2a2a2a;
+    --hover-color: #111;
+    --nav-color: #333;
+    --font-color: white;
+}
+
+
+.dark-button {
+	position: -webkit-fixed;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	transition-duration: 0.5s;
+	border: none;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+.dark-image {
+	filter: invert(0);
+	background-color: transparent;
+	opacity: .4;
+	transition: opacity 0.5s;
+	width: 40px;
+	height: 40px;
+}
+
+.dark-image:hover {
+	opacity: .9;
+}
+
+.dark-mode .dark-image {
+	filter: invert(100%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--nav-color);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: var(--hover-color);
+}
+
+
+@font-face {
+  font-family: "Font";
+  src: url("https://css.replit.cool/Chess/src/fonts/Poppins-Bold[1].ttf");
+}
+
+h1{
+  color: #000000;
+  font-size: 55px;
+}
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+}
+
+a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  cursor: help;
+  text-shadow: 2px 2px #00bbf9;
+}
+
+address {
+  font-size: 18px;
+  text-shadow: 2px 2px #00bbf9;
+}
+
+summary, details {
+  font-size: 20px;
+  text-shadow: 2px 2px #c400fa;
+}
+
+::placeholder {
+  font-size: 25px;
+  color: #787878;
+}
+
+button {
+  width: 200px;
+  height: 55px;
+  font-family: "Trebuchet MS";
+  font-size: 25px;
+  box-shadow: 4px 4px white;
+  border-color: #00fa79;
+  color: white;
+  background-color: #00fa79;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: white;
+  box-shadow: 4px 4px #00fa79;
+  color: #00fa79;
+  border-color: white;
+  transition: 0.7s;
+}
+
+button:disabled {
+  background-color: white;
+  box-shadow: 4px 4px #00fa79;
+  border-color: #121212;
+  cursor: not-allowed;
+  color: white;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: #495057;
+  border-radius: 5px;
+  border-color: white;
+}
+
+#transcribed-text {
+    font-size: 24px; 
+    color: #000;
+    background-color: #fff; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+#devil button {
+    position: absolute;
+    left: 48.5%;
+    transform: translateX(-45%);
+}
+#d {
+   width: 70px;
+   height: 30px;
+   font-family: "Trebuchet MS";
+   font-size: 11px;
+   box-shadow: 4px 4px black;
+   border-color: #00fa79;
+   color: white;
+   background-color: #b8b8b8;
+   border-radius: 5px;
+   margin: 20px;
+ }
